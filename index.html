@@ -4,22 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my frist github repository</title>
-    <style>
-        .text{
-            text-align:center;
-            color:blueviolet;
-        }
-        h1{
-            color:black;
-        }
-    </style>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div class="text">
-        <h1 class="">Bangladesh is a small country</h1>
+    <header>
+      <section class="nvebar">
+        <div>
+            <img class="logo" src="images/daraz-logo.png" alt="">
+          </div>
+          <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div>
+            <input type="text" placeholder="search">
+          </div>
+        </section>
+        </header>
+        <!--main section-->
+        <main>
+            <div class="text">
+                <h1 style="margin:0;">Hellow world</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tenetur.</p>
+                <button class="btn">learn more</button>
+            </div>
+        </main>
+        <!--main section 2-->
+        <section class="audio">
+          <div class="audio-video">
+            <audio controls src="audio-video/audio.mp3"></audio>
+            <video controls src="audio-video/video - Copy.mp4"></video>
+          </div>
+          <div>
+             <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/FwmuhNTrJO4?si=XPUJqg09q_rpogx3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           </div>
+        </section>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere velit earum tempora cupiditate, repudiandae laborum et delectus animi praesentium recusandae, explicabo reiciendis asperiores repellendus, ab nisi voluptatem impedit odit quisquam?</p>
-    </div>
-    <h1>Bangladesh is a small country</h1>
+        <!--article-->
+        <article>
+          <header>
+            <h1>My Trips on Mountain was Charming</h1>
+            <p>Published on: <time datetime="27.05.2024">May 27, 2024 </time></p>
+          </header>
+        </article>
+        <section class="flex-box">
+          <div class="child">child-1</div>
+          <div class="child">child-2</div>
+          <div class="child">child-3</div>
+          <div class="child">child-4</div>
+          <div class="child">child-5</div>
+          <div class="child">child-6</div>
+        </section>
+        
+      
 </body>
 </html>
